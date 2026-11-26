@@ -1,0 +1,2 @@
+# 本程序零第三方依赖，只用 Python 标准库（tkinter + urllib）。
+# 这个文件只是为了说明"不需要 pip install 任何东西"。

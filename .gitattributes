@@ -1,0 +1,12 @@
+# 统一换行策略：仓库里存 LF，检出时 .bat / .txt 用 CRLF（Windows 习惯）
+* text=auto
+
+*.bat text eol=crlf
+*.txt text eol=crlf
+*.py  text eol=lf
+*.md  text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
